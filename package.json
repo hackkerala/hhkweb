@@ -1,0 +1,26 @@
+{
+  "name": "hhkweb",
+  "version": "1.0.0",
+  "description": "A web platform to connect hackers, organizers, and sponsors to improve the experience of hackathons organized in Kerala.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhkerala/hhkweb.git"
+  },
+  "keywords": [
+    "hackathon",
+    "kerala",
+    "hackers",
+    "organizers",
+    "sponsors"
+  ],
+  "author": "Hackathon Hackers Kerala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hhkerala/hhkweb/issues"
+  },
+  "homepage": "https://github.com/hhkerala/hhkweb#readme"
+}
