@@ -1,6 +1,6 @@
 # hhkweb
 
-A web platform to connect hackers, organizers and sponsors to improve the experience of hackathons organized in Kerala.
+A web platform to connect hackers, organizers, and sponsors to improve the experience of hackathons organized in Kerala.
 
 ## Goals
 
