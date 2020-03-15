@@ -1,0 +1,17 @@
+html,
+body,
+#root {
+	background: #fff;
+	cursor: default;
+	display: flex;
+	height: 100%;
+	margin: 0px;
+	width: 100%;
+}
+
+main {
+	display: flex;
+	flex-grow: 1;
+	padding-top: 72px;
+	justify-content: center;
+}
