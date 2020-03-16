@@ -12,47 +12,41 @@ const useStyles = makeStyles(theme => ({
 	}
 }))
 
-const Login = ({ history }) => {
+const Forgot = ({ history }) => {
 	const classes = useStyles()
 
-	const formSubmitHandler = () => history.push('/')
+	const formSubmitHandler = () => history.push('/login')
 
 	return (
 		<div className={classes.root}>
 			<Typography variant='h4' component='h1'>
-				Login
+				Reset Password
 			</Typography>
 			<form noValidate autoComplete='off' onSubmit={formSubmitHandler}>
 				<div className={classes.textField}>
 					<TextField
-						label='Username'
-						id='username'
+						label='Email Address'
+						type='email'
+						id='email'
 						variant='outlined'
 						autoFocus
-					/>
-				</div>
-				<div className={classes.textField}>
-					<TextField
-						label='Password'
-						type='password'
-						id='password'
-						variant='outlined'
+						helperText='Link to reset password will be sent to this email if an account with this email is found.'
 					/>
 				</div>
 				<div className={classes.textField}>
 					<Button color='primary' type='submit' variant='contained'>
-						Login
+						Reset
 					</Button>
 				</div>
 			</form>
 			<Link to='/signup'>
 				<Button>Create Account</Button>
 			</Link>
-			<Link to='/forgot'>
-				<Button>Forgot Password</Button>
+			<Link to='/login'>
+				<Button>Login</Button>
 			</Link>
 		</div>
 	)
 }
 
-export default Login
+export default Forgot
