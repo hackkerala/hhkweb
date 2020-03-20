@@ -33,10 +33,12 @@ app.use(passport.initialize())
 app.use(passport.session())
 app.use(methodOverride('_method'))
 
+//route to index file
 app.get('/', checkAuthenticated, (req, res) => {
 	res.render('index.ejs', { name: req.user.name})
 })
 
+//route to login file
 app.get('/login', checkNotAuthenticated, (req, res) => {
 	res.render('login.ejs')
 })
@@ -47,6 +49,7 @@ app.post('/login', checkNotAuthenticated, passport.authenticate('local', {
 	failureFlash: true
 }))
 
+// route to register file
 app.get('/register', checkNotAuthenticated, (req, res) => {
 	res.render('register.ejs')
 })
