@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/hhkerala/hhkweb/issues"
   },
-  "homepage": "https://github.com/hhkerala/hhkweb#readme"
+  "homepage": "https://github.com/hhkerala/hhkweb#readme",
   "dependencies": {
     "bcrypt": "^4.0.1",
     "ejs": "^3.0.1",
