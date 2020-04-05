@@ -1,29 +1,23 @@
-import 'typeface-roboto'
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { Paper, ThemeProvider } from '@material-ui/core'
 
 import './App.css'
-import Dashboard from './components/dashboard/Dashboard'
-import Forgot from './components/auth/Forgot'
+import Footer from './components/layout/Footer'
 import Header from './components/layout/Header'
-import Hackathons from './components/hackathon/Hackathons'
-import Login from './components/auth/Login'
-import Signup from './components/auth/Signup'
+import Main from './components/layout/Main'
+import { useStyles, theme } from './theme'
 
-export default function App() {
+const App = () => {
+	const classes = useStyles()
 	return (
-		<Router>
-			<Header />
-			<main>
-				{/* <Alerts /> */}
-				<Switch>
-					<Route exact path='/' component={Dashboard} />
-					<Route exact path='/forgot' component={Forgot} />
-					<Route exact path='/hackathons' component={Hackathons} />
-					<Route exact path='/login' component={Login} />
-					<Route exact path='/signup' component={Signup} />
-				</Switch>
-			</main>
-		</Router>
+		<ThemeProvider theme={theme}>
+			<Paper className={classes.root} elevation={0}>
+				<Header />
+				<Main />
+			</Paper>
+			<Footer />
+		</ThemeProvider>
 	)
 }
+
+export default App

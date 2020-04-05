@@ -1,0 +1,47 @@
+[
+	{
+		"name": "GitHub",
+		"contacts": [
+			{
+				"content": "https://airtable.com/shrjNunEV6tC0SXqY",
+				"type": "link"
+			}
+		]
+	},
+	{
+		"name": "DigitalOcean",
+		"contacts": [
+			{
+				"content": "sponsorship@digitalocean.com",
+				"type": "mail"
+			}
+		]
+	},
+	{
+		"name": "Red Bull",
+		"contacts": [
+			{
+				"content": "https://energydrink.redbull.com/contacts-sponsorship",
+				"type": "link"
+			}
+		]
+	},
+	{
+		"name": "StickerMule",
+		"contacts": [
+			{
+				"content": "https://www.stickermule.com/support/will-you-sponsor-my-organization",
+				"type": "link"
+			}
+		]
+	},
+	{
+		"name": "JetBrains",
+		"contacts": [
+			{
+				"content": "https://www.jetbrains.com/community/support/sponsorship_request.html",
+				"type": "link"
+			}
+		]
+	}
+]
