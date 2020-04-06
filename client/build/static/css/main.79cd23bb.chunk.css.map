@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,gBAGC,cAAe,CACf,YAAa,CACb,qBAAsB,CACtB,WAAY,CACZ,QAAW,CACX,UACD","file":"main.79cd23bb.chunk.css","sourcesContent":["body,\nhtml,\n#root {\n\tcursor: default;\n\tdisplay: flex;\n\tflex-direction: column;\n\theight: 100%;\n\tmargin: 0px;\n\twidth: 100%;\n}\n"]}
